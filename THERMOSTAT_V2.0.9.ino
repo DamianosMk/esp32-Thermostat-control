@@ -3,11 +3,11 @@
 #include <DHT.h>
 #include <vector>
 
-const char* ssid = "popart net";
-const char* password = "nick8432*$#@";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
-const char* adminUsername = "admin";
-const char* adminPassword = "admin";
+const char* adminUsername = "admin"; //username for login to the website
+const char* adminPassword = "admin"; //password
 
 WebServer server(80);
 
